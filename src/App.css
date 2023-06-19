@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: #eee;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #272522;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */

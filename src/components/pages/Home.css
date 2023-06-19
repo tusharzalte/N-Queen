@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+.home-container {
+  padding: 1% 8%;
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway;
+}
+.intro {
+  margin-top: 2%;
+  display: flex;
+}
+
+.problem-statement {
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 45px;
+  margin: auto 5%;
+}
+.problem-statement h1{
+  color: #5c8bb0;
+  font-size: 50px;
+  margin-bottom: 8%;
+}
+.footer-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-btn .btn-visualize{
+  padding: 12px 36px;
+  margin: 10px 0;
+  text-decoration: none;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  margin: 20px auto;
+  border: none;
+  background: linear-gradient(90deg,#0162c8,#55e7fc);
+}
+
+.footer-btn button:hover{
+  background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+@media only screen and (max-width: 650px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .intro .chessboard-4-img img {
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .problem-statement h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #5c8bb0;
+    margin-bottom: 20px;
+  }
+  .problem-statement p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: px;
+  }
+}
